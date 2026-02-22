@@ -1,0 +1,79 @@
+/* ============= Page reset ============== */
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* ============ Body setup ============== */
+
+main{
+    font-family: sans-seri;
+    background: linear-gradient(rgb(160, 57, 26),rgb(231, 197, 4));
+    background-repeat: no-repeat;
+    color: beige;
+    display: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    flex-shrink: 0;
+}
+
+nav{
+    margin:0 auto;
+}
+
+
+/* =============== Why Us ===================*/
+
+.whyHeader{
+    text-align: center;
+    margin: 30px;
+    font-size: xxx-large;
+    color: rgb(250, 235, 235);
+    font-family: sans-seri;
+}
+
+.point{
+    display: flex;
+    margin-bottom: 50px;
+    max-height: 350px;
+}
+
+.content img{
+    width: 750px;
+    max-height: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.content img:hover{
+    width: 800px;
+    max-height: 500px;
+    height: 365px;
+    border-radius: 50px;
+}
+
+.content p{
+    display: block;
+    max-width: 50%;
+    margin: 20px;
+    font-size: larger;
+}
+
+.content p{
+    line-height: 2.1;
+}
+
+.textRight{
+    margin-left: 10px;
+}
+
+
